@@ -25,7 +25,7 @@ export const SOCIAL_DATA = {
     },
     {
       title: 'Blog',
-      url: 'https://blog.clelia.dev',
+      url: 'https://clelia.dev/blog',
       icon: BlogIcon
     },
   ],

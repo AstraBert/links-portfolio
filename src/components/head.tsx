@@ -3,14 +3,14 @@
 import { type Metadata } from 'next'
 
 export function Head({ metadata }: { metadata: Metadata }) {
-  const title = metadata.title?.toString() || 'H A R S H H A A'
+  const title = metadata.title?.toString() || 'C L E L I A'
   const description =
     metadata.description?.toString() ||
-    'DevOps Engineer • Passionate DevOps Engineer on a mission to automate everything and scale cloud infrastructures efficiently. • Loves to build and break things. Always learning and sharing knowledge. • Open to new opportunities and challenges. • Based in Hyderabad, India 🌏'
-  const image = 'https://link.notharshhaa.site/opengraph-image.png'
-  const url = 'https://link.notharshhaa.site'
-  const author = 'Harshhaa Vardhan Reddy'
-  const githubHandle = '@NotHarshhaa'
+    'Open Source Engineer at LlamaIndex | Working on AI Development | Convinced Pythonist | GitHub Geek'
+  const image = 'https://link.clelia.dev/opengraph-image.png'
+  const url = 'https://link.clelia.dev'
+  const author = 'Clelia Astra Bertelli'
+  const githubHandle = '@AstraBert'
 
   return (
     <head>

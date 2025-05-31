@@ -59,7 +59,7 @@ export function Header() {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="text-base font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-zinc-800 to-zinc-600 dark:from-zinc-200 dark:to-zinc-400 hidden sm:inline"
         >
-          H A R S H H A A
+          C L E L I A
         </motion.span>
       </Link>
 

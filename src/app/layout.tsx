@@ -31,7 +31,7 @@ export default function RootLayout({
     >
       <Head
         metadata={{
-          title: 'Link | HARSHHAA',
+          title: 'Link | Clelia',
           description: 'Links to my social media'
         }}
       />

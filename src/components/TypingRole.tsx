@@ -15,9 +15,9 @@ export default function TypingRole() {
       <p className="relative text-center text-base md:text-lg font-mono font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-purple-600 dark:from-blue-400 dark:to-purple-400 break-words px-6 py-1">
         &lt; <Typewriter
           words={[
-            'DevOps Engineer',
-            'Cloud Enthusiast',
-            'Automation Fanatic',
+            'Open Source Engineer',
+            'AI development',
+            'Convinced Pythonist',
             'Open-Source Contributor',
           ]}
           loop

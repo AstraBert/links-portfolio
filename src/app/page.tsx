@@ -44,7 +44,7 @@ export default function HomePage() {
         >
           <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
           <a
-            href="https://github.com/NotHarshhaa"
+            href="https://github.com/AstraBert"
             target="_blank"
             rel="noopener noreferrer"
             className="block rounded-full transition-transform hover:scale-105 relative"
@@ -133,19 +133,6 @@ export default function HomePage() {
           delay={0.6}
           items={data.socials}
           id="personal-network"
-        />
-
-        <SectionContainer
-          title="Community Network"
-          delay={0.8}
-          items={data.communities}
-        />
-
-        <SectionContainer
-          title="One Resource at a Time"
-          delay={1.0}
-          items={data.resources}
-          special
         />
       </main>
     </div>

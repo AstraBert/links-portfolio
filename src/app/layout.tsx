@@ -13,6 +13,7 @@ import { cn } from '@/lib/utils'
 import '@/styles/globals.css'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useTheme } from 'next-themes'
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({
   children
@@ -36,6 +37,7 @@ export default function RootLayout({
         }}
       />
       <body className="flex min-h-screen flex-col bg-gradient-to-b from-white via-neutral-50 to-neutral-100 dark:from-neutral-950 dark:via-neutral-900 dark:to-black">
+        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

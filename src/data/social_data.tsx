@@ -6,6 +6,7 @@ import { WebIcon } from '@/components/icons/web'
 import { XIcon } from '@/components/icons/x'
 import { BlogIcon } from '@/components/icons/blog'
 import { BlueSkyIcon } from '@/components/icons/bluesky'
+import { MastodonIcon } from '@/components/icons/mastodon'
 
 export const SOCIAL_DATA = {
   name: 'Clelia Astra Bertelli',
@@ -54,6 +55,11 @@ export const SOCIAL_DATA = {
       title: 'Dev Community',
       url: 'https://dev.to/astrabert',
       icon: DevtoIcon
+    },
+    {
+      title: 'Mastodon',
+      url: 'https://mastodon.social/@itsclelia',
+      icon: MastodonIcon
     },
   ],
 }

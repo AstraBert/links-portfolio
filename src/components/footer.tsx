@@ -57,7 +57,7 @@ export function Footer() {
             © {year}
             <span className="mx-2 text-zinc-400 dark:text-zinc-500">•</span>
             <a
-              href="https://notharshhaa.site"
+              href="https://clelia.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-500 dark:from-blue-400 dark:to-purple-400 hover:from-purple-500 hover:to-blue-600 dark:hover:from-purple-400 dark:hover:to-blue-400 transition-all duration-300 font-semibold"

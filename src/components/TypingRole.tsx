@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 export default function TypingRole() {
   return (
-    <motion.div 
+    <motion.div
       className="h-8 md:h-10 relative p-1"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -15,9 +15,9 @@ export default function TypingRole() {
       <p className="relative text-center text-base md:text-lg font-mono font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-purple-600 dark:from-blue-400 dark:to-purple-400 break-words px-6 py-1">
         &lt; <Typewriter
           words={[
-            'Open Source Engineer',
-            'AI development',
-            'Convinced Pythonist',
+            'DevRel Engineer',
+            'Search, Infra and Scaling',
+            'I <3 Coding',
             'Open-Source Contributor',
           ]}
           loop

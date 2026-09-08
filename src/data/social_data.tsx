@@ -11,8 +11,8 @@ import { MastodonIcon } from '@/components/icons/mastodon'
 export const SOCIAL_DATA = {
   name: 'Clelia Astra Bertelli',
   initials: 'CAB',
-  avatar: '/assets/avatar.jpg',
-  about: 'Hello world, I\'m Clelia, an Open Source engineer working for LlamaIndex! I\'m extremely passionate about AI, and I\'m committed to build the tooling and the foundations so that everybody can access it🥰. I spend most of my time writing python code and I mostly live on GitHub repositories, but I also enjoy walks, traveling and art!🎨',
+  avatar: './assets/avatar.png',
+  about: 'Hello world! I\'m Clelia, a DevRel engineer working for Qdrant! I\'m passionate about AI, search infra and scaling, devtools and all things open source. I spend most of my time writing code in rust, python, typescript or go, and I mostly live on git repositories, but I also enjoy walks, traveling and art!',
   contacts: [
     {
       title: 'Portfolio',

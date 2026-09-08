@@ -45,7 +45,7 @@ export function Header() {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-xl group-hover:blur-2xl group-hover:scale-110 transition-all duration-500" />
           <Image
-            src="/logo.svg"
+            src="./logo.svg"
             alt="Logo"
             width={38}
             height={38}

@@ -25,10 +25,10 @@ export function Footer() {
     >
       <div
         className="
-          bg-gradient-to-r from-white/80 via-white/90 to-white/80 
-          dark:from-zinc-900/80 dark:via-zinc-900/90 dark:to-zinc-900/80 
+          bg-gradient-to-r from-white/80 via-white/90 to-white/80
+          dark:from-zinc-900/80 dark:via-zinc-900/90 dark:to-zinc-900/80
           backdrop-blur-[16px]
-          border border-zinc-100/70 dark:border-zinc-800/70 
+          border border-zinc-100/70 dark:border-zinc-800/70
           text-zinc-800 dark:text-zinc-200
           shadow-[0_8px_30px_rgb(0,0,0,0.05)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.15)]
           hover:shadow-[0_8px_30px_rgb(0,0,0,0.1)] dark:hover:shadow-[0_8px_30px_rgb(0,0,0,0.25)]
@@ -37,7 +37,7 @@ export function Footer() {
           flex flex-col md:flex-row items-center md:justify-between text-sm font-medium
           transition-all duration-300"
       >
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -10 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ delay: 0.2, duration: 0.5 }}
@@ -46,7 +46,7 @@ export function Footer() {
           <div className="relative size-8 flex items-center justify-center">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-xl group-hover:blur-2xl transition-all duration-300" />
             <Image
-              src="/assets/avatar.jpg"
+              src="./assets/avatar.png"
               alt="Logo"
               width={32}
               height={32}
@@ -75,10 +75,10 @@ export function Footer() {
           transition={{ delay: 0.3, duration: 0.5 }}
           onClick={scrollToTop}
           className="
-            p-2.5 rounded-full 
+            p-2.5 rounded-full
             bg-gradient-to-r from-white via-white/95 to-white/90
             dark:from-zinc-800 dark:via-zinc-800/95 dark:to-zinc-800/90
-            border border-zinc-200/80 dark:border-zinc-700/80 
+            border border-zinc-200/80 dark:border-zinc-700/80
             hover:border-blue-300/50 dark:hover:border-blue-700/50
             hover:shadow-md hover:shadow-blue-500/5 dark:hover:shadow-blue-500/10
             transition-all duration-300

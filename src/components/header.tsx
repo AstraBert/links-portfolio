@@ -20,16 +20,15 @@ export function Header() {
       animate={{
         padding: scrolled ? '0.75rem 1.5rem' : '1.25rem 2rem',
         backdropFilter: scrolled ? 'blur(16px)' : 'blur(8px)',
-        WebkitBackdropFilter: scrolled ? 'blur(16px)' : 'blur(8px)',
       }}
       transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1] }}
       className={`
-        fixed top-6 left-1/2 transform -translate-x-1/2 
+        fixed top-6 left-1/2 transform -translate-x-1/2
         w-[92%] max-w-4xl z-50 rounded-full
-        flex items-center justify-between 
-        bg-gradient-to-r from-white/80 via-white/90 to-white/80 
-        dark:from-zinc-900/80 dark:via-zinc-900/90 dark:to-zinc-900/80 
-        border border-zinc-100/70 dark:border-zinc-800/70 
+        flex items-center justify-between
+        bg-gradient-to-r from-white/80 via-white/90 to-white/80
+        dark:from-zinc-900/80 dark:via-zinc-900/90 dark:to-zinc-900/80
+        border border-zinc-100/70 dark:border-zinc-800/70
         shadow-[0_8px_30px_rgb(0,0,0,0.05)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.15)]
         hover:shadow-[0_8px_30px_rgb(0,0,0,0.1)] dark:hover:shadow-[0_8px_30px_rgb(0,0,0,0.25)]
         hover:border-blue-300/30 dark:hover:border-blue-700/30
@@ -45,15 +44,15 @@ export function Header() {
           className="relative"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-xl group-hover:blur-2xl group-hover:scale-110 transition-all duration-500" />
-          <Image 
-            src="/logo.svg" 
-            alt="Logo" 
-            width={38} 
-            height={38} 
-            className="relative z-10 group-hover:opacity-90 transition-opacity duration-300 drop-shadow-md" 
+          <Image
+            src="/logo.svg"
+            alt="Logo"
+            width={38}
+            height={38}
+            className="relative z-10 group-hover:opacity-90 transition-opacity duration-300 drop-shadow-md"
           />
         </motion.div>
-        <motion.span 
+        <motion.span
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
